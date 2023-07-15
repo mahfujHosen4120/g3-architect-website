@@ -1,0 +1,96 @@
+/* work sens font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.btn-primary {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+        color:#131313;
+        font-size: 3rem;
+        font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+.bannar{
+
+
+}
+.bannar-containt{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.bannar-title{
+    font-size: 4rem;
+    font-weight: 700px;
+    color: #131313;
+
+}
+.bannar-discription{
+
+    color: #727272;
+}
+.bannar-img{
+    margin-top: 20px;
+   width: 100%; 
+}
+/* responsive media quarry */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* tablateor medium device */
+@media screen and (min-width:576px) and (max-width: 576px){
+    header{
+        padding: 50px;
+    }
+    nav{
+    flex-direction: column;
+}
+
+}
